@@ -1,0 +1,299 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Lambda Prime</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets\img\favicon.png" rel="icon">
+  <link href="assets\img\favicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/final_logo_and_name_expanded.png" alt="">
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#problem-statement">Problem Statement</a></li>
+          <li><a href="#project">The Project</a></li>
+          <li><a href="#plots">Plots & Inferences</a></li>
+          <li><a href="#ai">Use of AI</a></li>
+          <li><a href="#team">The Team</a></li>
+          <li><a class="get-a-quote" href="mailto:projectnasa03@gmail.com">Contact us</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Problem Statement ======= -->
+  <section id="problem-statement" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row gy-4 d-flex justify-content-between">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <br>
+          <h4 data-aos="fade-up">Problem Statement</h4>
+          <h2 data-aos="fade-up">Magnetic Reconnection</h2>
+          <p data-aos="fade-up" data-aos-delay="100" style="text-align: justify; margin-bottom: 10px;">The problem statement is about predicting magnetic reconnection events and forecasting, to take preventive measures to escape the adverse impacts observed on Earth's surface and the satellites orbiting Earth. Our objective is to develop a computer program for the public that performs statistical and spectral analysis of the vector components of the IMF measured by the ACE, WIND, and DSCOVR missions to assess how often magnetic reconnection occurs. Our analysis will provide vital information regarding how frequently solar wind particles and energy gain access into the geo-space environment and potentially cause space weather effects.</p>
+        </div>
+
+        <div class="col-lg-5 order-1 order-lg-2 " style="position: absolute; bottom: 0; right: 0;" data-aos="zoom-out">
+          <img src="assets/img/hero-img.gif" class="img-fluid " width=400>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Problem Statement -->
+
+  <main id="main">
+
+    <!-- ======= Project ======= -->
+    <section id="project" class="about">
+      <div class="container" data-aos="fade-up">
+        <h3>The Project</h3>
+        <div class="row">
+          <div style="text-align: justify;" class="col">
+            <p>☀ To predict the space weather conditions near Earth, it is necessary to provide solar wind conditions upstream of Earth in advance. Currently, spacecraft at the Sun–Earth L1 point continuously monitor the incoming solar wind 1.4 million km ahead of Earth.​</p>
+            <p>☀ However, the typical travel time for the solar wind from the L1 point to the outer edges of the magnetosphere is only one hour at most, which is too short to provide a warning of adverse space weather events. These events can disrupt electricity on Earth's surface and negatively impact Satellites orbiting Earth​.</p>
+            <p>☀ We have developed an LSTM model and trained it on OMNI dataset with features such as plasma density, solar wind speed, Bz, plasma temperature and DST values. Our model is capable is predicting MR events accurately well in advance and provide us the required temporal window to defend ourselves from adverse space events.​</p>        
+            <p><a href="https://drive.google.com/file/d/1xYoVo4v969lhIlvZSUydzxV6E0Qlcpqd/view?usp=sharing" target="_blank">Click here to view the Project's Interactive Python Notebook.</a></p>
+          </div>
+          <div class="col" data-aos="zoom-out">
+            <div class="row">
+              <video width="225" height="175" autoplay style="border: 0;padding: 0;">
+                <source src="./assets/img/SolarWind_v03.webm" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="row">
+              <br>
+            </div>
+            <div class="row">
+              <video width="225" height="175" autoplay style="border: 0;padding: 0;">
+                <source src="./assets/img/Earth_Sequence_Fast_h264.webm" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Plots ======= -->
+    <section id="plots" class="about">
+      <div class="container" data-aos="fade-up">
+        <h3>Plots & Inference</h3>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <img src="./assets/img/heatmap.png" width="500" height="400">
+              <br>
+              <br>
+            </div>
+            <div class="col" style="text-align: left;">
+              <h5>CORRELATION HEATMAP</h5>
+              <p>☀ The plasma related features - speed and temperature have a strong negative correlation with Dst.</p>
+              <p>☀ The IMF feature Bt also exhibits negative correlation.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="./assets/img/time.png" width="500" height="400">
+              <br>
+              <br>
+            </div>
+            <div class="col" style="text-align: left;">
+              <h5>TIME SERIES PLOT OF IMF MAGNITUDE</h5>
+              <p>☀ When magnetic reconnection occurs, the IMF components change rapidly and significantly.</p>
+              <p>☀ Hence, the spikes in the magnitude of IMF are used as the indicators for the occurrence of magnetic reconnection.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="./assets/img/Bz_GSM.png" width="500" height="400">
+              <p style="text-align: justify; width: 500; padding-left: 30; padding-top: 10;">B_z_gsm Plot gives the reading of the Interplanetary Magnetic Field Strength recorded by the spacecraft with the corresponding timestamps. This is the paramount feature used to determine Magnetic Reconnection Instances</p>
+              <br>
+            </div>
+            <div class="col">
+              <img src="./assets/img/proton_density.png" width="500" height="400">
+              <p style="text-align: justify; width: 500; padding-left: 30; padding-top: 10;">The Proton Density of the Plasma Flow is a valuable feature as inferred from the Correlation Matrix.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="./assets/img/plasma_flow_speed.png" width="500" height="400">
+              <br>
+              <br>
+            </div>
+            <div class="col">
+              <img src="./assets/img/plasma_temp.png" width="500" height="400">
+            </div>
+          </div>
+          <div class="row">
+            <p>The speed and temperature of the Plasma flow are also utilized in the computation.</p>
+          </div>
+        </div>        
+      </div>
+    </section>
+
+    <!-- ======= AI ======= -->
+    <section id="ai" class="about">
+      <div class="container" data-aos="fade-up">
+        <h3>Use of AI</h3>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col" style="text-align: justify;">
+              <p>☀ Artificial intelligence is used to detect and predict magnetic reconnection measured by the ACE, WIND, and DSCOVR missions via an LSTM model.</p>
+              <p>☀ LSTM models learn long-term dependencies in data, which makes them ideal for analyzing time series data, such as the vector components of the IMF measured by the ACE, WIND, and DSCOVR missions.</p>
+              <p>☀ The LSTM model gives prediction of the current time stamp and the next hour time stamp upon training on the various IMF and plasma features. It has an accuracy of 89.13 and is able to detect magnetic reconnection in the dataset significantly well.</p>        
+            </div>
+            <div class="col">
+              <img src="./assets/img/flow.png" width="500" height="400">
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Team ======= -->
+    <section id="team" class="about">
+      <div class="container" data-aos="fade-up">
+        <h3>The Team</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <a href="https://www.linkedin.com/in/aathesh-vigram/" target="_blank">
+              <img src="./assets/img/Vig.png" class="card-img-top">
+              <div class="card-body">
+                <center>
+                <h5 class="card-title" style="text-decoration: underline;">Aathesh Vigram</h5></a>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a href="https://www.linkedin.com/in/neeshanth-s-m-92924a181" target="_blank">
+              <img src="./assets/img/Nes.jpg" class="card-img-top">
+              <div class="card-body">
+                <center>
+                <h5 class="card-title" style="text-decoration: underline;">Neeshanth S M</h5></a>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a href="https://www.linkedin.com/in/jvn-ganesh-30504477" target="_blank">
+              <img src="./assets/img/Gan.jpeg" class="card-img-top">
+              <div class="card-body">
+                <center>
+                <h5 class="card-title" style="text-decoration: underline;">JVN Ganesh</h5></a>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>    
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <a href="https://www.linkedin.com/in/sunidhi-gopalan-182170255/" target="_blank">
+              <img src="./assets/img/Sun.jpg" class="card-img-top">
+              <div class="card-body">
+                <center>
+                <h5 class="card-title" style="text-decoration: underline;">Sunidhi Gopalan</h5></a>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a href="https://www.linkedin.com/in/srinidhi-gopalan/" target="_blank">
+              <img src="./assets/img/Sri.jpeg" class="card-img-top">
+              <div class="card-body">
+                <center>
+                <h5 class="card-title" style="text-decoration: underline;">Srinidhi Gopalan</h5></a>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a href="https://www.linkedin.com/in/SushilKrishnan" target="_blank">
+              <img src="./assets/img/Sus.jpg" class="card-img-top">
+              <div class="card-body">
+                <center>
+                <h5 class="card-title" style="text-decoration: underline;">Sushil Krishnan</h5></a>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>              
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <center>
+      <a href="index.html">
+        <img src="./assets/img/final_logo_and_name_expanded.png" height="70" style="margin-bottom: 30px;">
+      </a>
+    </center>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Lambda Prime</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
